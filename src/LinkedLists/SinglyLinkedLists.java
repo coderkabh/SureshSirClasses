@@ -21,6 +21,7 @@ public class SinglyLinkedLists<E> {
     public int countLength(){
         int count = 0;
         ListNode<E> temp = head;
+        if(head == null) return 0;
         while (temp != null){
             count++;
             temp = temp.next;
