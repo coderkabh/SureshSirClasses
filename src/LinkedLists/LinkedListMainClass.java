@@ -13,5 +13,7 @@ public class LinkedListMainClass {
         third.next = forth;
 
         sll.printLinkedList();
+
+        System.out.println(sll.countLength());
     }
 }

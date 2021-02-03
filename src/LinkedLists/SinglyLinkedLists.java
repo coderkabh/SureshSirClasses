@@ -18,6 +18,16 @@ public class SinglyLinkedLists<E> {
         System.out.println();
     }
 
+    public int countLength(){
+        int count = 0;
+        ListNode<E> temp = head;
+        while (temp != null){
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
+
 }
 class ListNode<E>{
     E data;
