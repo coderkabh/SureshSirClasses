@@ -12,8 +12,17 @@ public class LinkedListMainClass {
         second.next = third;
         third.next = forth;
 
+        sll.insertFirst(34);
+
+        sll.insertLast(100);
+
+        System.out.println(sll.deleteFirst());
+
         sll.printLinkedList();
 
         System.out.println(sll.countLength());
+
+        sll.deleteLast();
+        sll.printLinkedList();
     }
 }
